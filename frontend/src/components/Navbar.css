@@ -1,0 +1,55 @@
+/* Navbar Container */
+.navbar-container {
+  background-color: #343a40;
+  height: 100vh;
+  top: 70px;
+  width: 300px;
+  position: fixed;
+  flex-direction: column;
+  align-items: flex-start;
+  padding-top: 1rem;
+  margin-top: -20px;
+  transition: transform 0.3s ease;
+}
+
+/* Navbar Brand */
+.navbar-brand {
+  color: white;
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  padding-left: 1rem;
+}
+
+/* Navbar Brand Link */
+.navbar-brand a {
+  color: inherit;
+  text-decoration: none;
+}
+
+/* Nav Links */
+.nav {
+  width: 100%;
+}
+
+/* Nav Link Styling */
+.nav-link {
+  color: #b0b0b0;
+  padding: 0.75rem 1.5rem;
+  width: 100%;
+  text-align: left;
+}
+
+/* Nav Link Hover Effect */
+.nav-link:hover {
+  background-color: #495057;
+  color: white;
+}
+
+/* Visibility of Navbar based on Sidebar state */
+.navbar-container.hidden {
+  transform: translateX(-100%); /* Ẩn Navbar khi Sidebar mở */
+}
+
+.navbar-container.visible {
+  transform: translateX(0); /* Hiển thị Navbar khi Sidebar đóng */
+}

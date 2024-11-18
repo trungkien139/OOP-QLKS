@@ -1,0 +1,81 @@
+/* Container chính */
+.booking-container {
+  padding: 20px;
+  background-color: #f8f9fa;
+  font-family: Arial, sans-serif;
+  border-radius: 8px;
+}
+
+/* Header (Thanh tìm kiếm và nút) */
+.booking-header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  margin-left: 15%;
+}
+
+.search-bar {
+  width: 300px;
+  padding: 10px;
+  border: 1px solid #ced4da;
+  border-radius: 4px;
+}
+
+.add-booking-btn {
+  background-color: #28a745;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-right: 6%;
+}
+
+.add-booking-btn:hover {
+  background-color: #218838;
+}
+
+/* Bảng danh sách */
+.booking-table {
+  width: 80%;
+  border-collapse: collapse;
+  margin-top: 10px;
+  margin-left: 15%;
+}
+
+.booking-table th,
+.booking-table td {
+  border: 1px solid #dee2e6;
+  padding: 12px;
+  text-align: left;
+}
+
+.booking-table th {
+  background-color: #e9ecef;
+}
+
+.detail-btn {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.detail-btn:hover {
+  background-color: #0056b3;
+}
+
+.delete-btn {
+  background-color: #dc3545;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.delete-btn:hover {
+  background-color: #bd2130;
+}
